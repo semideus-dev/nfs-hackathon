@@ -52,7 +52,6 @@ type FormData = z.infer<typeof formSchema>;
 export default function TodoApp() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [flameTimeLeft, setFlameTimeLeft] = useState(0); // in seconds
-  const [lastUpdate, setLastUpdate] = useState(Date.now());
 
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
@@ -385,7 +384,7 @@ export default function TodoApp() {
                     🎉 All tasks completed!
                   </p>
                   <p className="text-xs text-gray-500">
-                    The flame burns eternal when you're productive!
+                    The flame burns eternal when you&apos;re productive!
                   </p>
                 </div>
               )}

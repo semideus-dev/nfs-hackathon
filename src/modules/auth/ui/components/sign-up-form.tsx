@@ -23,8 +23,6 @@ import { Button } from "@/components/ui/button";
 import {
   EyeIcon,
   EyeOffIcon,
-  GithubIcon,
-  GoogleIcon,
   LoadingIcon,
 } from "@/components/icons";
 import { toast } from "sonner";

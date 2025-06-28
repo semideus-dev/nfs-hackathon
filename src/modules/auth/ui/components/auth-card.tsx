@@ -1,6 +1,5 @@
 import { FlameIcon } from "@/components/icons";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import Image from "next/image";
 import React from "react";
 
 interface AuthCardProps {
